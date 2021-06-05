@@ -4,7 +4,7 @@ public class CustomerMain {
 		 Scanner s = new Scanner(System.in);
 		 Customer obj = new Customer();
 		 System.out.println("Enter the details:");
-         obj.setStr(s.next());
+         obj.setStr(s.nextLine());
          obj.assign();
          System.out.println("Employee Details");
          System.out.println("Name:" + obj.getName());

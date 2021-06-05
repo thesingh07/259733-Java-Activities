@@ -4,9 +4,9 @@ public class InningsMain {
 				 Scanner s = new Scanner(System.in);
 				 Innings obj = new Innings();
 				 System.out.println("Enter the Team Name:");
-		         obj.setTeamname(s.next());
+		         obj.setTeamname(s.nextLine());
 		         System.out.println("Enter session:");
-		         obj.setInningsname(s.next());
+		         obj.setInningsname(s.nextLine());
 		         System.out.println("Enter runs:");
 		         obj.setRuns(s.nextInt());
 		         obj.displayInningsDetails();

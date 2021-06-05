@@ -4,11 +4,11 @@ public class EmployeeMain {
 		 Scanner s = new Scanner(System.in);
 		 Employee obj = new Employee();
 		 System.out.println("Enter the Name:");
-         obj.setName(s.next());
+         obj.setName(s.nextLine());
          System.out.println("Enter the Address:");
-         obj.setAddress(s.next());
+         obj.setAddress(s.nextLine());
          System.out.println("Enter the Mobile:");
-         obj.setMobile(s.next());
+         obj.setMobile(s.nextLine());
          System.out.println("Employee Details");
          System.out.println("Name:" + obj.getName());
          System.out.println("Address:" + obj.getAddress());
